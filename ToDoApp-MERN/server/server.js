@@ -32,7 +32,7 @@ app.use(express.static(path.join(__dirname, '../client/ToDoApp/dist')));
 app.use(express.json());
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://your-frontend-url.onrender.com',
+  'https://todoapp-mern-ryxy.onrender.com',
 ];
 
 app.use(
